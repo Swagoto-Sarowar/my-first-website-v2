@@ -1,0 +1,164 @@
+body {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+hr {
+  width: 10%;
+  margin: auto;
+  border-style: dotted;
+  border-width: 0 0 0.5rem;
+  color: teal;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #519898;
+}
+
+p {
+  line-height: 2;
+}
+
+/* navigation bar */
+
+.navbar-nav,
+.navbar-brand,
+.nav-link {
+  color: #519898;
+}
+
+.navbar-brand {
+  padding-left: 2rem;
+}
+
+.nav-item {
+  margin: 2rem 2rem;
+}
+.nav-link {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* Home Section */
+
+#home {
+  padding: 0 0 5%;
+  background-color: #e3fdfd;
+}
+
+.row {
+  margin: 0; /*default bootstrap row puts some margin which makes the max widht a bit more than the display */
+}
+
+.left-cloud {
+  margin: 120% 10% 0 80%;
+}
+
+.name {
+  position: relative;
+  top: 5%;
+}
+
+.name-header {
+  font-family: "Sacramento", cursive;
+  font-size: 500%;
+  font-weight: bold;
+  color: #519898;
+}
+.name-description {
+  font-size: 150%;
+  margin: 5% 0;
+}
+
+.mountain {
+  margin: 5% 0 0;
+}
+
+.right-cloud {
+  position: relative;
+  right: 50%;
+}
+
+/* Hello Section */
+
+#hello {
+  background-color: #cbf1f5;
+  text-align: center;
+  padding: 5% 25%;
+}
+
+.profile-img {
+  margin: 0;
+}
+
+.hello-header {
+  margin: 5% 0 3%;
+}
+
+/* Skills Section */
+
+#skills {
+  background-color: #a6e3e9;
+  padding: 5% 25% 5%;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 6rem 0 15%;
+}
+
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+.camera-img {
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+}
+
+.canvas-img {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+/* contact-section*/
+
+#contact {
+  background-color: #a6e3e9;
+  padding-bottom: 5%;
+}
+
+.contact-btn {
+  margin: 2%;
+  background-color: teal;
+}
+
+/* Footer section  */
+
+#footer {
+  background-color: #71c9ce;
+  padding: 4rem;
+}
+
+.footer-link {
+  margin: 2rem 5%;
+  text-decoration: none;
+  color: teal;
+}
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  font-size: smaller;
+  margin-top: 2rem;
+}
